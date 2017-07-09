@@ -1,0 +1,22 @@
+[alias]
+  p = pull --rebase
+	co = checkout
+	cm = commit
+	st = status
+	br = branch
+	mr = merge
+	type = cat-file -t
+	dump = cat-file -p
+	ignore = update-index --assume-unchanged
+	unignore = update-index --no-assume-unchanged
+	ignored = !git ls-files -v | grep "^[[:lower:]]"
+	pp = !(git pull --rebase && git push && echo "" && git log -1 --stat) || git pull --rebase
+	dt = difftool
+  ls = log --pretty=format:\"%C(green)%h%C(reset) | %C(yellow)%ad%C(reset) | %s %C(blue)[%aN]%C(red)%d%C(reset)\" --decorate --graph --date=short
+[core]
+	excludesfile = ~/.gitignore
+[diff]
+	tool = meld
+[difftool]
+	path = meld
+	prompt = false
