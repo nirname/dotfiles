@@ -1,0 +1,4 @@
+alias ap='ansible-playbook'
+alias ag='ansible-galaxy'
+alias tf='terraform'
+alias av='ansible-vault'
