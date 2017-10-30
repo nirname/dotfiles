@@ -20,3 +20,6 @@
 [difftool]
   path = meld
   prompt = false
+[user]
+  name = Nikolay Rozhkov
+  email = rozhkov@uchi.ru
