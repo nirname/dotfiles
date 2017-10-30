@@ -5,4 +5,3 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra,git_completion}
         [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
-c
