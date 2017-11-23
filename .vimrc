@@ -15,10 +15,10 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'junegunn/fzf'
-call vundle#end()            " required
-filetype plugin indent on    " required
+" set rtp+=~/.vim/bundle/Vundle.vim
+" call vundle#begin()
+" Plugin 'VundleVim/Vundle.vim'
+" Plugin 'junegunn/fzf'
+" call vundle#end()            " required
+" filetype plugin indent on    " required
 
